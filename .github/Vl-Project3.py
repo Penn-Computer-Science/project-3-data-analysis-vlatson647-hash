@@ -4,34 +4,29 @@ import matplotlib.pyplot as ply
 import random
 
 # Makes data
-fNames = ["Richard", "Lucian", "Van", "Kyle", "Andrew", "Jack", "Danica", "Emma", "Amy", "Rosanne", "Scott", "Johnathan", "Eli", "Jill", "Jose"]
-lNames = ["Smith", "Larson", "Jones", "Furgeson", "Campbell", "Wilson", "Garcia", "Curtis", "Roosevelt", "Thompson", "Watson", "Anderson", "Foster", "Davey", "MacDonald"]
-years = ["Freshman", "Sophomore", "Junior", "Senior", "Super Senior"]
-pathways = ["Early College", "Engineering", "Computer Science", "Business", "Marketing", "Early Childhood Education", "Culinary", "Criminal Justice", "Construction", "Bio Med"]
-names = []
+amount = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+most_Favorite = ["McDonalds", "Burger King", "Wendy's", "Arby's", "Chick fil-a", "Others", "KFC", "Culver's", "Popeye's"]
+least_Favorite = ["McDonalds", "Burger King", "Wendy's", "Arby's", "Chick fil-a", "Others", "KFC", "Culver's", "Popeye's"]
+calories = ["<1000", 1000-2000, 2000-3000, 3000-4000, 4000-5000, ">5000"]
 
-for i in range(200):
-    names.append(f"{random.choice(fNames)} {random.choice(lNames)}")
 
-print(names)
 data = {
-    "Name": names,
-    "Age": [random.randint(14,19) for _ in names],
-    "GPA": [round(random.uniform(0.3, 4.5),2) for _ in names],
-    "Credits Completed": [random.randint(0, 60) for _ in names],
-    "Year": [random.choice(years) for _ in names],
-    "Pathway": [random.choice(pathways) for _ in names],
+    "Favorite": [random.choice(most_Favorite) for _ in amount],
+    "Times Ate (MF)": [random.randint(0,10)for _ in amount],
+    "Least Favorite": [random.choice(least_Favorite) for _ in amount],
+    "Times Ate (LF)": [random.randint(0,10) for _ in amount],
+    "Calories": [random.choice(calories) for _ in amount],
 }
-# Comment
-pennData = pd.DataFrame(data)
 
-pennData.to_csv("pennData.csv", index=False)
+surveyData = pd.DataFrame(data)
+
+surveyData.to_csv("Survey.csv", index=False)
 
 
 
 # load data frame
-df = pd.read_csv("Survey.csv")
-surveyData = pd.DataFrame(df)
-print("-_"*20)
-print("Head of the Dataframe") 
-print(surveyData.head())
+# df = pd.read_csv("Survey.csv")
+# surveyData = pd.DataFrame(df)
+# print("-_"*20)
+# print("Head of the Dataframe") 
+# print(surveyData.head())
