@@ -37,11 +37,11 @@ print("-_"*20)
 print("First Data Sample") 
 print(surveyData.iloc[0] )
 
-surveyData.groupby("Favorite")["Times Ate (MF)"].mean().plot(kind="bar", color="red")
-plt.title("average times ate per favorite restaurants")
-plt.xlabel("Favorite")
-plt.ylabel("Times Ate (MF)")
-plt.show()
+# surveyData.groupby("Favorite")["Times Ate (MF)"].mean().plot(kind="bar", color="red")
+# plt.title("average times ate per favorite restaurants")
+# plt.xlabel("Favorite")
+# plt.ylabel("Times Ate (MF)")
+# plt.show()
 
 surveyData.groupby("Least Favorite")["Times Ate (LF)"].mean().plot(kind="bar", color="red")
 plt.title("average times ate per least favorite restaurants")
@@ -61,11 +61,7 @@ plt.xlabel("Times Ate (LF)")
 plt.ylabel("Frequency")
 plt.show()
 
-# plt.scatter(surveyData("Credits Completed"), surveyData["GPA"])
-# plt.title("GPA Distribution")
-# plt.xlabel("GPA")
-# plt.ylabel("Number of Students")
-# plt.show()
+
 
 
 
