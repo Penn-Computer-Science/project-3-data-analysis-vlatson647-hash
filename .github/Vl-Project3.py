@@ -1,6 +1,6 @@
 import pandas as pd
 import seaborn as sns
-import matplotlib.pyplot as ply
+import matplotlib.pyplot as plt
 import random
 
 # load data frame
@@ -32,11 +32,6 @@ print(surveyData['Favorite'].value_counts())
 print("-_"*20)
 print("Count of Least favorite restaurants") 
 print(surveyData['Least Favorite'].value_counts())
-
-# print("-_"*20)
-# print("Count of Calories per Meal") 
-# print(surveyData['Calories'].value_counts())
-
 
 print("-_"*20)
 print("First Data Sample") 
