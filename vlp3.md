@@ -28,7 +28,7 @@ List the questions you asked in your survey and their type:
 ---
 
 ## Data Overview
-- **Link to Raw Data File (CSV):** [Download here]('.github\Survey.csv')
+- **Link to Raw Data File (CSV):** [Download here]('Survey.csv')
 - **Number of Columns:** _e.g., 5_
 - **Number of Rows:** _e.g., 20_
 - **Any Cleaning Steps Taken:** _I included an others option and many people filled it out so I jsut lumped them together in an "others" category)_
