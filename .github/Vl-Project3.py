@@ -37,6 +37,7 @@ print("-_"*20)
 print("First Data Sample") 
 print(surveyData.iloc[0] )
 
+# loads charts
 surveyData.groupby("Favorite")["Times Ate (MF)"].mean().plot(kind="bar", color="red")
 plt.title("average times ate per favorite restaurants")
 plt.xlabel("Favorite")
