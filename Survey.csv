@@ -1,0 +1,21 @@
+Favorite,Times Ate (MF),Least Favorite,Times Ate (LF),Calories per meal
+Arby's,5,Wendy's,1,3000
+Burger King,8,McDonalds,9,4000
+Arby's,9,Chick fil-a,9,5000
+Burger King,5,Culver's,8,<1000
+KFC,7,KFC,10,1000
+Others,3,McDonalds,10,>5000
+Popeye's,3,Chick fil-a,2,4000
+McDonalds,10,Chick fil-a,6,2000
+Popeye's,8,Wendy's,0,1000
+Arby's,9,Culver's,0,4000
+Popeye's,5,Burger King,1,3000
+Popeye's,1,Others,3,4000
+Chick fil-a,8,Arby's,0,2000
+McDonalds,2,KFC,7,2000
+Culver's,2,Chick fil-a,10,2000
+McDonalds,9,Chick fil-a,2,2000
+Others,0,Others,6,>5000
+Popeye's,5,Popeye's,8,3000
+Culver's,2,Wendy's,4,3000
+McDonalds,6,KFC,10,2000
